@@ -1,9 +1,9 @@
 # code your #valid_move? method here
-def valid_move?(board, index)
-if position_taken?
-  puts "Please choose a valid move"
-else
-  board[index] = "X"
+def valid_move?
+  if position_taken? 
+false
+  else 
+    true
 end
 end
 
