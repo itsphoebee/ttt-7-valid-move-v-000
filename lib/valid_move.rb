@@ -1,9 +1,9 @@
 # code your #valid_move? method here
-def valid_move?
-  if position_taken?
+def valid_move?(Int)
+  if Int > 9 or int < 1
     nil
-  else
-    true
+  elsif 
+    position_taken?
   end
 end
 
