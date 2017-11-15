@@ -1,9 +1,9 @@
 # code your #valid_move? method here
 def valid_move?(board, index)
 if position_taken?
-  false
+  puts "Please choose a valid move"
 else
-  true
+  board[index] = "X"
 end
 end
 
