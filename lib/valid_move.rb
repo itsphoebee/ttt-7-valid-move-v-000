@@ -2,7 +2,7 @@
 def valid_move?(Int)
   if Int > 9 or int < 1
     nil
-  elsif 
+  elsif
     position_taken?
   end
 end
